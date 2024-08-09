@@ -7,5 +7,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 rm -rf build/*
 cd build &&
-	cmake .. &&
+	cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=1&&
 	make

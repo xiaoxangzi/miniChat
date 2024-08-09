@@ -1,13 +1,13 @@
 #ifndef CHATSERVICE_H
 #define CHATSERVICE_H
 
-#include "/home/caht/chat_project/thirdparty/json.hpp"
-#include "model/groupmodel.hpp"
-#include "model/usermodel.hpp"
-#include "model/offlinemessagemodel.hpp"
-#include "model/frindmodel.hpp"
-#include "model/group.hpp"
-#include "redis/redis.hpp"
+#include "json.hpp"
+#include "groupmodel.hpp"
+#include "usermodel.hpp"
+#include "offlinemessagemodel.hpp"
+#include "frindmodel.hpp"
+#include "group.hpp"
+#include "redis.hpp"
 
 #include <cstdint>
 #include <muduo/base/Timestamp.h>

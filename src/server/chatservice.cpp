@@ -1,6 +1,6 @@
-#include "/home/caht/chat_project/include/server/chatservice.hpp"
-#include "/home/caht/chat_project/include/public.hpp"
-#include "/home/caht/chat_project/include/server/model/user.hpp"
+#include "chatservice.hpp"
+#include "public.hpp"
+#include "user.hpp"
 
 #include <cstdint>
 #include <functional>
@@ -197,6 +197,7 @@ void ChatService::reg(const muduo::net::TcpConnectionPtr &conn,
         response["msgid"] = RED_MSG_ACK;
         response["errno"] = 0; // 错误标识，无错误
         response["id"] = user.getId();
+        response["name"] = name;
         conn->send(response.dump()); // 想响应的消息发送回去，send 支持string 和自制的
     }else 
     {
@@ -204,6 +205,7 @@ void ChatService::reg(const muduo::net::TcpConnectionPtr &conn,
         json response;
         response["msgid"] = RED_MSG_ACK;
         response["errno"] = 1; // 错误标识，有错误
+        response["name"] = name;
         conn->send(response.dump()); // 想响应的消息发送回去，send 支持string(传实例) 和buffer(传指针)的
     }
     

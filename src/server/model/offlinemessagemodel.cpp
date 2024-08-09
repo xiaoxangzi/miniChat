@@ -1,5 +1,5 @@
-#include "/home/caht/chat_project/include/server/model/offlinemessagemodel.hpp"
-#include "/home/caht/chat_project/include/server/database/database.h"
+#include "offlinemessagemodel.hpp"
+#include "database.h"
 
 #include <muduo/base/Logging.h>
 #include <mysql/mysql.h>

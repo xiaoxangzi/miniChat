@@ -1,5 +1,5 @@
-#include "/home/caht/chat_project/include/server/model/usermodel.hpp"
-#include "/home/caht/chat_project/include/server/database/database.h"
+#include "usermodel.hpp"
+#include "database.h"
 
 #include <cstdio>
 #include <cstdlib>

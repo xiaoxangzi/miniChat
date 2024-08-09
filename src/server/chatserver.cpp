@@ -1,6 +1,6 @@
-#include "/home/caht/chat_project/include/server/chatserver.hpp"
-#include "/home/caht/chat_project/thirdparty/json.hpp"
-#include "/home/caht/chat_project/include/server/chatservice.hpp"
+#include "chatserver.hpp"
+#include "json.hpp"
+#include "chatservice.hpp"
 
 #include <functional>
 #include <muduo/net/Buffer.h>

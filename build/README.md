@@ -1,2 +1,1 @@
-cmake ..
-cmake 
+kong

@@ -1,4 +1,4 @@
-#include "/home/caht/chat_project/include/server/database/database.h"
+#include "database.h"
 
 #include <muduo/base/Logging.h>
 

@@ -1,5 +1,5 @@
-#include "/home/caht/chat_project/include/server/model/frindmodel.hpp"
-#include "/home/caht/chat_project/include/server/database/database.h"
+#include "frindmodel.hpp"
+#include "database.h"
 
 #include <cstdlib>
 #include <muduo/base/Logging.h>

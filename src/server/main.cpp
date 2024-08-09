@@ -1,5 +1,5 @@
-#include "/home/caht/chat_project/include/server/chatserver.hpp"
-#include "/home/caht/chat_project/include/server/chatservice.hpp"
+#include "chatserver.hpp"
+#include "chatservice.hpp"
 #include <muduo/base/StringPiece.h>
 
 #include <iostream>

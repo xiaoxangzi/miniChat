@@ -1,4 +1,4 @@
-#include "/home/caht/chat_project/include/server/redis/redis.hpp"
+#include "redis.hpp"
 #include <cstdlib>
 #include <hiredis/hiredis.h>
 #include <iostream>
